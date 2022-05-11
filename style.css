@@ -1,0 +1,10 @@
+/* preventing a horizonatal scroll */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* control the height of the entire window */
+    min-height: 100vh;
+}
